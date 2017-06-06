@@ -9,14 +9,18 @@ This is a modified version of the [trackduino](https://github.com/trackuino/trac
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to flash the project onto tracksoar hardware.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to build and flash the project onto Tracksoar hardware.
 
 ### Prerequisites
 
-Arduino 1.5
+Arduino 1.5 or greater
+or 
+Platform.io core
+
+#### Platform.io
 
 ```
-Give examples
+pip install -U platformio
 ```
 
 ### Installing
@@ -63,16 +67,16 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Platform.io](http://platformio.org/) - The embedded systems framework
-* [Arduino](https://arduino.org/) - Embedded Libraries
+* [Arduino](https://arduino.org/) - Embedded libraries
+* [Platform.io](http://platformio.org/) - Embedded systems framework
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/mkapuscik/habner-g12/tags). 
 
 ## Authors
 
@@ -84,9 +88,3 @@ See also the list of [contributors](https://github.com/slapplebags/Tracksoar-Fir
 ## License
 
 This project is licensed under the GPL v2 - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
