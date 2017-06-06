@@ -9,11 +9,11 @@ This is a modified version of the [trackduino](https://github.com/trackuino/trac
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to flash the project onto tracksoar hardware.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Arduino 1.5
 
 ```
 Give examples
@@ -76,13 +76,14 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **INITIAL_AUTHOR** - *Initial work* - [PROJECT_LINK](https://github.com/)
+* **Javi Martin** - *Initial work* - [trackuino](https://github.com/trackuino)
+* **Mike Bales** - *Tracksoar porting* - [slapplebags](https://github.com/slapplebags)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/slapplebags/Tracksoar-Firmware/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the INSERT_LICENSE - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL v2 - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
